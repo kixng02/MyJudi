@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbb2"
+    tools:context=".MakhwebaneCase">
+
+
+    <ScrollView
+        android:layout_width="387dp"
+        android:layout_height="688dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/mayapic" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Pretoria Supreme high court"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Presiding Judge: Justice Maya"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DA v Makhwebane"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CASE NO : 1370/2019"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DA (Applicant)"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Makhwebane (Respondent)"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="niform Rule 35(12) – production of documents to which ‘reference is made’ in pleadings or affidavits – meaning of – includes reference in annexures – not reference to documents by inference – excludes supposition – document sought must be relevant in relation to issues that might arise – different from relevance to issues that are circumscribed after the close of pleadings or after all affidavits have been filed – onus discussed – document material to timeline in relation to defamatory statements relevant and compellable.
+ORDER
+On appeal from: Western Cape Division of the High Court, Cape Town (Papier J sitting as court of first instance):
+1 The appeal is upheld, and the respondents are to pay the costs of appeal jointly and severally, the one paying the other to be absolved, including the costs of two counsel.
+2 The order of the court below is set aside and substituted as follows:
+‘1. The applicants in the main application under case number 19668/17 are directed to produce for inspection and copying the first applicant’s application for the post of Analyst: Domestic Branch: DBO1 in the State Security Agency, referred to in “PPSA5  by no later than 1st April 2021.
+2.  The respondents in the main application are to file their answering affidavit by no later than the 16th  April 2021.
+3.  The respondents in this application are ordered to pay the applicants’ costs, including the costs of two counsel where so employed, jointly and severally, the one paying the other to be absolved.’
+JUDGMENT
+Navsa ADP (Dlodlo and Nicholls JJA and Carelse and Rogers AJJA concurring)
+Background
+[1]        This is an appeal against an order of the Western Cape Division of the High Court, Cape Town, in terms of which an interlocutory application brought by the appellants in terms of rule 30A of the Uniform Rules, to compel the production of documents by the respondents requested under rule 35(12), was dismissed and they were ordered to pay the respondents’ costs jointly and severally, the one paying the other to be absolved. Additionally, the high court ordered the appellants to file an answering affidavit in the main case within 15 days of the order. It is against those two orders that the present appeal, with the leave of the court below, is directed. In the main case the respondents are seeking, on motion, an order directing the appellants to retract defamatory remarks concerning the first respondent made at a press conference and to apologise publicly for their utterances. The detailed background appears hereafter.
+[2]        On 6 September 2016, the second appellant, Ms Glynnis Breytenbach, acting in her representative capacity as a member of the first appellant, the Democratic Alliance, a political party registered in terms of s 26 of the Electoral Act 73 of 1998 (the DA), conducted a press conference where she published the following media statement of and concerning the first respondent, Advocate Busisiwe Mkhwebane, the Public Protector in our country, appointed to that position in terms of s 184 of the Constitution read with s 1A of the Public Protector Act 23 of 1994:
+‘Ahead of the debate on the nomination of Adv Busisiwe Mkhwebane for the Public Protector, the DA has decided to not support this nomination. This is on the grounds that her appointment would be unreasonable as she was by no means the best candidate for such a position and was illogically preferred over other qualifying candidates.
+Adv Mkhwebane may turn out to be a capable candidate for the position of the Public Protector and we wish her well if Parliament and the President confirm her nomination. However, we contend that her qualifications and experience make her unsuitable for this position.
+It is upon this basis that the DA will not support her nomination by the Ad Hoc Committee for the Appointment of a new Public Protector for the following reasons:
+She has little or no practical experience to justify such an appointment when compared with the experience of the other four candidates;
+She was employed by Home Affairs as a Director (salary level approximately R1 million annually) immediately prior to this process being initiated;
+She changed employment around June 2016, and went to State Security Agency (SSA) as an analyst.
+When asked in the interview why she had changed jobs for what is ostensibly a demotion, her reply was that she “was passionate about the Constitution”. While this is noble value to hold; it alone does not make her eligible for the position or separate her from the other more qualified candidates; and
+We have been advised that the time spent as an “immigration officer  in China is also suspicious, having been informed that this is simply coded language for being on the payroll of SSA.
+In the absence of a logical explanation for what is seen as a demotion the ineluctable conclusion is unfortunately that Adv Mkhwebane is on the payroll of the SSA. This situation is even more problematic in the current climate in the country, where the justified view is held that President Jacob Zuma is abusing State departments, the SSA in particular, to hang on to power at all costs. We hold the view that the Public Protector cannot be seen as even remotely connected to the State Security Agency.
+While this doesn’t make Adv Mkhwebane the worst candidate, it does not make her the best either. Further to this, the secrecy around her work at the SSA makes it almost impossible to ascertain whether or not her role and conduct are beyond reproach and befitting the office of the Public Protector who is constitutionally mandated to be “a fit and proper person to hold such office.”
+Additionally, Adv Mkhwebane could not confirm that she had “acquired any combination of experience … for a cumulative period of at least 10 years  as is demanded by the Constitution.
+Other issues that gave rise to concern and moved us to be unwilling to support her nomination are the following:
+Both Judge Weiner and Prof Majola were stronger candidates, in terms of experience and in terms of the quality of their interviews;
+Prof Majola as a candidate brings the bonus of his involvement in the Special Tribunal in Rwanda over the last seven years, he, unlike Adv Mkhwebane, has been at a certain distance from Government in South Africa.
+Adv Mkhwebane, on the other hand, has always been employed in and around government and has already indicated that she wants to have a more “friendly relationship with government”;
+Much was made of the fact that she was a senior investigator at the office of the Public Protector previously, but in our view, the fact that she served during the tenure of Lawrence Mushwana, when the office showed little to no appetite to vociferously investigate government corruption.
+As such, with the ever present danger of state capture by the President, and the fact that all independent institutions with an investigative capacity have already been captured leaving only the Office of the Public Protector and Judiciary relatively untouched, it is of enormous importance to ensure that the appointment of the new Public Protector is beyond any suspicion.
+Given the overall performance of the candidates at the interviews and a comparison of their qualifications and experience, the single-minded support for Adv Mkhwebane is unreasonable in our view.
+We hold the view that Judge Sharise Weiner had the best interview, but that Professor Majola is the best candidate. We would be very comfortable nominating him for the post.
+To replace the fearless Adv Madonsela with a candidate who hasn’t shown the necessary potential to pursue government corruption would be undermining our hard-won constitutional imperatives.
+The DA believes in the Rule of Law and stopping corruption. To this end we have worked tirelessly during this process to appoint the new Public Protector, to ensure that the right woman or man is appointed to serve the interests of the people instead of the narrow interests of a political cabal set on advancing their own self-interested agenda.
+We simply cannot risk these principles with the nomination of Adv Mkhwebane.’
+(Emphasis supplied by Ms Mkhwebane in her founding affidavit.)
+[3]        At the press conference referred to in the preceding paragraph the third appellant, Mr Werner Horn, also a member of the DA, made the following statement, which allegedly was widely disseminated, including through a national television broadcaster:
+‘We were reliably informed that she indeed during her 10 years as an immigration officer in China, was already on the payroll of the State Security Agency. I think, mindful of the fact that by nature if you are indeed a spy it is of a secret nature.’
+(Emphasis supplied by Ms Mkhwebane in her founding affidavit.)
+ [4]       The second respondent is the office of the Public Protector, established in terms of s 181(1)(a) of the Constitution and designated as a juristic person in terms of s 5(1) of the Public Protector Act. The respondents’ complaint is that the statements made by the appellants of and concerning Ms Mkhwebane were defamatory, impinged on her integrity and reputation, and had no foundation in fact. Ms Mkhwebane complained that the statements were intended and understood by members of the public to convey:
+‘29.1    I was a spy of the State Security Agency at the time of my nomination and would remain such subsequent to my appointment at the office of the Public Protector;
+29.2     That I was on the payroll of the State Security Agency while I was employed as an immigration officer in China.
+29.3     I am to be treated with suspicion as I continue to be on a payroll of the State Security Agency, and not independent as I am intricately connected to the State President who is allegedly abusing the State Security Agency.
+29.4     That my appointment will lead to the state capture of the office of the public protector by the State President;
+29.5     That I am not honest and have no integrity in that whilst I was deployed by the Department of Home Affairs to China, I was also on the payroll of the State Security Agency.
+29.6     That I have no integrity and honesty as it is expected from an Advocate and a person applying for the Public Protector’s post, as I did not fully disclose material information about my past employment by the State Security Agency while in China to the Committee, the National Assembly and the State President.
+29.7     That I acted dishonestly by failing to disclose to my employer that I received remuneration from other state departments while in gainful employment of the Department of Home Affairs.
+29.8     That the information that I was a “spy  comes from reliable sources and therefore it is unquestionable.’
+[5]        Ms Mkhwebane was adamant that she had been deployed by the Department of Home Affairs on 7 September 2009 to the Beijing Foreign Office in connection with Home Affairs related matters, which term came to an end on 31 May 2014 and was during that time not employed by nor connected to the State Security Agency (the SSA), which is a government department with overall responsibility for civilian intelligence operations, in any way. The following is a pertinent part of her founding affidavit in support of the main application:
+I confirm I was deployed by the Department of Home Affairs in Beijing, China, as Councillor: Immigration and Civic Services. I further confirm that whilst in Beijing, China, I was not on the payroll of State Security Agency nor ever being in the payroll of State Security Agency whatsoever. I attach in support hereto a confirmatory affidavit of Mr Arthur Fraser, the Director General of State Security Agency as annexure
+On 11th May 2016, I was appointed by State Security Agency, as an Analyst: Domestic Branch, at P3 level. A copy of the Appointment letter is attached hereto as annexure “PPSA 5”. The P3 position and salary level occupied by me at the time of my employment in the State Security Agency was the equivalent of a Chief Director position and therefore higher than the position of Director.’
+[6]        It is necessary to record that in the confirmatory affidavit from the Director General of the SSA, Mr Arthur Fraser, on which the respondents relied, he stated, inter alia, that he has read the founding affidavit by Ms Mkhwebane and confirm[s] the correctness of facts thereof in so far as they relate to her employment and remuneration at the State Security Agency. He goes on to echo that she was never in the employ of the SSA in any manner whilst deployed to the People’s Republic of China by the Department of Home Affairs and that she was subsequently appointed as a member of the SSA on          11 May 2016 until she took up appointment as the Public Protector in October 2016.
+[7]        For present purposes it is necessary to have regard to annexure, referred to in para 5 above. It bears the letterhead of the SSA, is addressed to Ms Mkhwebane, appears to be from the office of the General Manager, Human Resources at the SSA, and reads as follows:
+1.          I have pleasure in informing you that your application for the abovementioned post has been approved.
+2.           Your remuneration package is structured as follows:
+Occupational Band                                       : P3
+Basic Annual Salary                        : R601 770.00 pa
+Service Allowance                           : R 30 810.00  pa
+Housing Allowance                          : R 23 910.00  pa
+Annual Bonus                                  : R 50 147.50  pa
+Group Assurance of 60% (State Contribution)     : R21 159.95    pa
+VSSM                                              : R246 342.     pa
+Pension (State Contribution)              R 96 283.20  pa
+Total Package                                   :R1 082 773.27 pa
+Package Range                                 R884 245.36 – R1 194. 12 57 pa
+3.        If the above offer is acceptable to you, you are requested to confirm this as per attached appendix A.
+4.         Further please note that your salary is a personal matter between yourself and the employer and is regarded as confidential.
+5.         If you do not accept the salary offer indicated above, please attach your current salary slip in your reply (Annexure A) so that this may be considered.
+6.         If your response is not received within 5 working days it would be assumed that you are no longer interested in the above-mentioned position.
+[8]        Following on the defamatory statements referred to in paras 2 and 3 above being published and widely circulated in the media, Ms Mkhwebane s legal representatives wrote to the appellants, demanding a retraction. The appellants refused to accede to the demand, asserting that the statements complained of were true, in the public interest, and constituted fair comment. In her affidavit in the main application, Ms Mkhwebane referred to a media interview Ms Breytenbach, the second appellant, had with a news outlet on 2 February 2017, during which she allegedly stated that she was not bothered in the least by the threat of legal action because the statements complained of would not have been made if the appellants did not have proof to substantiate them.
+[9]        The appellants refusal to accede to the demand for the retraction led to the main application by the respondents, launched in October 2017, in which the relief referred to in para 1 above was sought. Ms Mkhwebane eschewed any claim to monetary compensation, stating that her main objective was to vindicate her right to integrity and her right to her reputation as well as to ensure confidence in the office of the Public Protector.
+[10]      On 10 November 2017 the appellants filed a notice of intention to oppose the main application. On 1 December 2017, prior to filing their answering affidavit, the appellants filed a notice in terms of Uniform rule 35(12), seeking the production by the respondents of seven documents they considered they were, in terms of the subrule, entitled to.
+[11]      Rule 35(12) reads as follows:
+‘Any party to any proceeding may at any time before the hearing thereof deliver a notice as near as may be in accordance with Form 15 in the First Schedule to any other party in whose pleadings or affidavits reference is made to any document or tape recording to produce such document or tape recording for his inspection and to permit him to make a copy or a transcription thereof. Any party failing to comply with such notice shall not, save with the leave of the court, use such document or tape recording in such proceeding provided that any other party may use such document or tape recording.’ (My emphasis).
+[12]      As recorded in the judgment of the court below, the respondents, although they had initially resisted providing any of the documents sought, produced five of the seven items required by the appellants. Many of the documents sought were, in any event, in the public domain. The refusal of the respondents to produce the remaining two items led to the interlocutory application in the court below during June 2018 in terms of rule 30A of the Uniform Rules[1]. It is those two items that were at the centre of the dispute in the court below and are the focus of this appeal.
+[13]      The two documents sought by the appellants are itemised in para 6 of the judgment of the court below:
+By agreement between the parties, this application was limited to the following two documents:
+a.      the first respondent’s application for the post of Analyst; Domestic Branch; DB01 in the State Security Agency; and
+b.      the first respondent’s confirmation of her acceptance of the offer as per appendix A.’
+[14]      The application by the appellants in the court below to compel production of the two items was premised on the assertions by Ms Mkhwebane, in paras 18 and 19 of her affidavit, reproduced in para 5 above, namely, those concerning the time during which she was employed by the Department of Home Affairs in China and the date on which she was appointed to her post as analyst in the State Security Agency and her attachment of annexure ‘PPSA5’ as her letter of appointment. The annexure, in turn, alludes, in its opening line, to her application for the position and required an acceptance form to be completed and returned. It is the first respondent’s application that the appellants sought as well as an assumed completed acceptance form, presaged in the annexure.
+[15]                The appellants submitted that the documents were indeed referred to in Ms Mkhwebane’s affidavit, within the contemplation of rule 35(12). In the court below it was accepted on behalf of the appellants that relevance was the touchstone for success in an application to compel the production of documents sought in terms of rule 35(12). They contended that the documents sought were directly relevant to the question of whether Ms Mkhwebane was a spy at the material times claimed in the statements complained of and were thus compellable.
+
+"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

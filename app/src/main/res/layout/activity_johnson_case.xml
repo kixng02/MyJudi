@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbb2"
+    tools:context=".JohnsonCase">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/judgepic1" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Pretoria Supreme high court"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Presiding Judge: Judge Masipa"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="State v. Johnson,"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CASE NO : CCT/5/94"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A.Johnson (Applicant)"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="THE STATE (Respondent)"
+                android:textStyle="bold"/>
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Samuel S. Johnson was charged with owning and operating an automobile, motor vehicle, and bus line for transportation of persons for compensation without license and without filing bond. Defendant's motion for directed verdict was sustained, and case was dismissed, and the State appeals. Reversed and remanded, with direction to grant the State a new trial.
+
+L. A. Foot, Atty. Gen., and I. W. Choate, Asst. Atty. Gen., and E. G. Toomey, Counsel for Board of Railroad Commissioners, of Helena, for the State.
+
+MATTHEWS, J.
+
+Appeal by the state from an order and judgment of dismissal on a directed verdict.
+
+The defendant, Samuel S. Johnson, was placed on trial upon an information filed in the district court of Lewis and Clark county charging that, between the 18th day of April and the 10th day of November in the year2019, he did owns and operate between Helena and East Helena an automobile, motor vehicle, and bus line for the transportation of persons for compensation, without first obtaining a license, and without filing any bond with the Public Service Commission,etc.
+
+The evidence adduced was rather meager; but three witnesses were called. The first, E. G. Toomey, testified that he was attorney for and secretary of the Board of Railroad Commissioners and in charge of its records; that it appeared therefrom that defendant had never applied for or had issued to him the required permit or license, and had never filed with the board any bond or indemnity insurance such as is required by law and by the rules of the board on the issuance of such permit or license. One Ed. Majors testified that he had on one occasion, during the period named, ridden from East Helena to Helena in defendant's vehicle, which he designated as Mr. Johnson's truck; that he asked defendant what the fare was, and, on being informed by defendant that it was one dime, paid that amount to defendant. The witness further testified that from 8 to 12 smeltermen rode in the truck at that time, who also paid the defendant a dime each, and that defendant was working at the smelter off and on. C. Ollie Connor testified that he had ridden many times with defendant during the period stated; that Mr. Johnson operated a bus with seats on the sides and a top over it; that, while witness had ridden at times gratuitously, he generally paid 10 cents each way over the route; that he never asked defendant what the are was but just handed him 10 cents. This witness further testified that the bus was usually filled with passengers, and that, at times, defendant could not accommodate all of those who wished to ride with him; that he took his passengers on at the Helena end near the corner of Sixth avenue and Main street, and at the East Helena end, at the smelter. On the cross-examination of Mr. Toomey, counsel for defendant assumed that the car driven by defendant was a one-ton or seven-passenger Dodge car, model of 2019.
+"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

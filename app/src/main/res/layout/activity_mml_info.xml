@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbb2"
+    tools:context=".mmlInfo">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="International Law and Municipal Law"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="International agreements"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="231. (1) The negotiating and signing of all international agreements is the responsibility of the national executive.
+
+(2) An international agreement binds the Republic only after it has been approved by resolution in both the National Assembly and the National Council of Provinces, unless it is an agreement referred to in subsection (3).
+
+" />
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(3) An international agreement of a technical, administrative or executive nature, or an agreement which does not require either ratification or accession, entered into by the national executive, binds the Republic without approval by the National Assembly and the National Council of Provinces, but must be tabled in the Assembly and the Council within a reasonable time." />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Customary international law
+232. Customary international law is law in the Republic unless it is inconsistent with the Constitution or an Act of Parliament.
+
+Application of international law
+233. When interpreting any legislation, every court must prefer any reasonable interpretation of the legislation that is consistent with international law over any alternative interpretation that is inconsistent with international law.
+" />
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Municipal Law"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+         />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A municipality has the right to govern, on its own initiative, the local
+government affairs of its community, subject to national and provincial legislation,
+as provided for in the Constitution.
+(4) The national or a provincial government may not compromise or impede a
+municipality’s ability or right to exercise its powers or perform its functions.
+Objects of local government
+"
+                />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="152. (1) The objects of local government are—
+(a) to provide democratic and accountable government for local communities;
+(b) to ensure the provision of services to communities in a sustainable manner;
+(c) to promote social and economic development;
+(d) to promote a safe and healthy environment; and
+(e) to encourage the involvement of communities and community organisations
+in the matters of local government.
+(2) A municipality must strive, within its financial and administrative capacity, to
+achieve the objects set out in subsection (1).
+"
+                />
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sources"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:textColor="#F2A71B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.AO Sanni: Introduction To Nigerian Legal Method" />
+            <TextView
+                android:textColor="#F2A71B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.Evidence Act 2011" />
+
+            <TextView
+                android:textColor="#F2A71B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.Constitution of the Federal Republic of Nigeria 1999 (as amended)" />
+
+            <TextView
+                android:id= "@+id/AskMeTV3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#7EEC0B"
+                android:textStyle="bold"
+                android:text="Got a question?" />
+
+
+
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

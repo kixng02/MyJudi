@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbb2"
+    tools:context=".pplInfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Public Law"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Public Law is that part of law, which governs relationship between the State (government/government agencies) with its subject and also the relationship between individuals directly concerning the society. According to Loughlin, ‘Public law is a form of political jurisprudence that incorporates no transcendental or metaphysical ideas of justice and goodness; it is concerned solely with those precepts of conduct that have evolved through political practice to ensure the maintenance of the public realm as an autonomous entity" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="’ The Public Law deals with the social problems in the broad context and may include the following heads: Constitutional Law, Administrative Law, Criminal Law and Criminal Procedure, Law of the State considered in its quasi private personality, Procedure relating to the State as so considered and Judge made Law. In short, Public Law governs relationship between the State with its citizens and also relationship between individuals directly concerning the Society. Constitutional Law, Administrative Law, Criminal Law and Criminal Procedure are the subject matter of Public Law" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In Public law the State is not only arbiter, but is also one of the parties interested. The rights and duties with which it deals concern itself of the one part and its subjects of the other part. Public Law is concerned with the structure of government, the duties and powers of officials, and the relationship between the individual and the State. “It includes such subjects as Constitutional Law, Administrative Law, regulation of public utilities, Criminal Law and Procedure, and Law relating to the proprietary powers of the State and its political subdivisions”" />
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Private Law"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Private Law is concerned with the relationship between individuals with one another or private relationship between citizens and companies that are not of public importance. In the case of Private Law the role of the State is merely to recognize and enforce the relevant law and to adjudicate the matters in dispute between them through its judicial organs" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Private Law as per Holland is substantive and defines the rights of individuals or it may be adjective indicating the procedure by which rights are to be enforced or protected.
+In Private Law on the contrary, he/she who is today the person of inherence with reference to a right of any given description may very probably become tomorrow the person of incidence with reference to a precisely similar right and vice versa).
+" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In Private law the State is indeed present, but it is present only as arbiter of the rights and duties which exist between one of its subjects and another. Private Law is concerned with both substantive and procedural rules governing relationship between individuals (such as the law of torts or private injuries, contracts, property, wills, inheritance, marriage, divorce, adoption, and the like)."/>
+
+
+
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sources"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:textColor="#F2A71B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.AO Sanni: Introduction To Nigerian Legal Method" />
+            <TextView
+                android:textColor="#F2A71B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.Evidence Act 2011" />
+
+            <TextView
+                android:textColor="#F2A71B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.Constitution of the Federal Republic of Nigeria 1999 (as amended)" />
+
+            <TextView
+                android:id= "@+id/AskMeTV4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#7EEC0B"
+                android:textStyle="bold"
+                android:text="Got a question?" />
+
+
+
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

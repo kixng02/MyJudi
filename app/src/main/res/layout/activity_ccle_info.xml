@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbb2"
+    tools:context=".ccleInfo">
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Common Law and Equity"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text=""
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="In the legal sense, the term common law means the law developed by the old common law courts of the King’s Bench, the Courts of Common Pleas and the Courts of Exchequer."/>
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The English common law is regarded as such because it is law common to all parts of England. It grew over time from the practices, customs and way of life of the people. It is largely unwritten. The first common law judge was the King himself. People who had disputes usually brought them to the King to settle them."/>
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="However, due to matters of state, the king didn’t have time to settle all cases. As a result of this, the king appointed members of his court who were to settle disputes in his stead. These judges had the authority of the king and any disobedience to them was treated as disobedience to the king and punishment was swift."/>
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="These different judges travelled the length and breadth of the realm to settle disputes. When they got to a particular location, they applied the customary law in that location in order to settle disputes. Regularly, these different itinerant judges would come together to compare the different customary laws they encountered on their travels"
+                     />
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     android:text="They discarded customs that were thought to be insensible and accepted those which were sensible. This led to the conglomeration of different customs which were then applied all through the realm. This then metamorphosed into the common law of England."/>
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                      android:text="" />
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="However, the common law was strict, formal and full of legalism. One example of this was in its system of writs. If an action did not fit into a writ, there was no remedy for such action. Also, the only remedy available in common law was that of damages." />
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                        android:text="" />
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Due to the harshness of common law, the people petitioned the King directly for judgement. The Lord Chancellor, as the King’s Prime Minister, was the one that dealt with most of these petitions. His court was called the Court of Chancery/Equity. The Lord Chancellor, was usually a bishop and thus, he applied the principle of fairness and natural law in making his decisions." />
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Subsequently, there was conflict between the common law court and the court of chancery. This conflict came to head in the Earl of Oxford’s case. In this case, the plaintiff was the assignee of a lease and he built a house and planted a garden on the land. Subsequently, the defendant/owner of the land sought to evict him from the land. The assignee thus sued and lost at common law, and he appealed to the court of chancery." />
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The court of equity accepted his petition and allowed him to stay on the land. The reasoning of the Lord Chancellor, Lord Ellesmere, was that by natural law, it was only fair and just for a person who builds a house to be able to live in that house." />
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This judgement prompted Lord Coke, the Chief Justice of the King’s Bench to accuse the Lord Chancellor of frustrating the rules of common law. The matter was brought to the King who referred it to Lord Francis Bacon. Francis Bacon supported the court of equity and ruled that whenever there was a clash between common law and equity, equity would prevail." />
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This ruling however, did not help to completely solve the problem between the two courts. This was due to the fact that the common law courts could only grant the remedy of damages and thus, anyone seeking a different remedy would first pass through the common law courts before going to equity." />
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Over the years, the two systems were merged till finally, in 1875, the Judicature Act fused the two systems into one court. However, although they are applied in one court, the rules of common law and equity can be distinguished from each other. This is what prompts the statement “Although the two streams now flow into one, their waters do not mix.”" />
+
+
+
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Sources"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:textColor="#F2A71B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1.AO Sanni: Introduction To Nigerian Legal Method" />
+                <TextView
+                    android:textColor="#F2A71B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.Evidence Act 2011" />
+
+                <TextView
+                    android:textColor="#F2A71B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3.Constitution of the Federal Republic of Nigeria 1999 (as amended)" />
+
+                <TextView
+                    android:id= "@+id/AskMeTV3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#7EEC0B"
+                    android:textStyle="bold"
+                    android:text="Got a question?" />
+
+
+
+
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>

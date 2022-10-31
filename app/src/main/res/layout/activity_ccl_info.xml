@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbb2"
+    tools:context=".cclInfo">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Civil Law and Criminal Law"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Civil law"
+                android:textStyle="bold" />
+
+            <TextView
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Civil law refers to almost all other disputes—these are the rules that apply when one person sues another person, a business or agency. This can cover a housing case such as for eviction or foreclosure, a family case such as divorce or custody, consumer problems such as debt or bankruptcy, or when someone sues for money because of damage to property or personal harm. All of these cases go to a Civil Court. The judges in criminal and civil court have different powers. " />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Criminal Court judges can punish you for breaking the law by sending you to jail. Civil Court judges can order you to pay money or a fine, or make decisions about your family or your home. What happens in criminal court? In criminal court, the government files a case against someone for committing a crime. The person accused of committing the crime is called the defendant. The government must prove that the defendant is guilty “beyond a reasonable doubt,” which is a very high standard. If the defendant is found guilty, then he or she may go to jail or prison." />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What happens in civil court?
+ In civil court, one person sues (files a case) against another person because of a dispute or problem between them. A business or agency can also file a case in civil court or be sued in civil court. If someone loses a case in civil court, that person may be ordered to pay money to the other side or return property, but that person does not go to jail just for losing the case.
+" />
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The objective of Civil Law is to rectify the wrongs, or to settle the disputes in an amicable manner rather than in a stringent way. If there is a damage, the party is to get compensation from the wrong door. In Civil Law, a dispute commences when the injured party files a complaint against the opposite party. Under Civil Law, the victim/injured is awarded compensation for the injury caused to him/ her. For instance, if an accident victim/injured claims damages against the driver for loss or injury sustained to him/her in the accident, this will be a matter regulated by Civil Law. " />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=". Civil Law not only deals with the disputes between private parties, but also with the negligent acts of the individuals that cause harm to others. For example, when there is a disagreement between two parties regarding the terms of a contract or regarding the ownership or possession of a property, or wrongful dismissal of a person from his employment, the aggrieved party may get relief under Civil Law by approaching the Court to decide the matter. Similarly, when somebody fails to exercise the degree of caution that an ordinarily prudent person would take in any situation to avoid any kind of negligent act, the other party may approach the court to get remedy under Civil Law. The basic principle is that if there is a violation of a legal right of a person, the same is actionable, irrespective of the fact whether the plaintiff has suffered any actual loss or not. " />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Taking into consideration the circumstances and the seriousness of the matter, a person may be held responsible for any damages or injury that was caused as a result of his wrongful act. Disputes relating to family matters such matters involving marriage, divorce, maintenance, inheritance, succession, division of property between spouses also represent a large portion of the cases covered under civil law. The complainant in a civil case is called as ‘plaintiff’ or applicant and the party against whom the case is filed, is known as the defendant or ‘respondent’. The Courts has discretion either to dismiss a case if it is found to have no merit, or may order the losing party to pay compensation to the aggrieved party for the harm suffered by him or her. The State has no role to play in civil matters, unless the government itself is the party in it." />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Criminal law"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Criminal Law is defined as “a body of rules that defines the conduct prohibited by the State for being harmful to public safety and welfare and also prescribes punishment to be imposed for the commission of such acts”. More specifically, Criminal Law (also known as Penal Law) deals with acts of intentional harm to individuals. In a larger sense, it can be said that it deals with offences against the State. Crime, in a Civilized Society, is considered to be a breach of duty, committed not only against a single individual, but also against the society at large" />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In other words, it is a breach of duty towards the public as a whole for which the offender is punished by the society or the State. A crime is a deliberate or reckless act that causes harm to another either to his/ her person or to his/her property.
+Moreover, it is also a crime to neglect a duty to protect others from harm. Criminal Law refers to the body of laws which deal with crimes and their consequences. In Criminal Law, an individual may report a crime but can never file a case against another individual, only the government can file the case against the offender. " />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Criminal Law defines the various offences caused to human body and property and also prescribes punishments for them. The objective of Criminal Law is to punish the wrongdoer and to deter him/her from repeating the commission of the crime again. Crime and punishment are two sides of the same coin. Every act that endangers social harmony is a crime. In fact, crime is an act forbidden by law, and thus any person committing crime is liable to punishment. " />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The basic concept of Criminal Law is based on the maxim “actus non facit reum, nisi mens sit rea”, which means that an act itself does not constitute a crime, unless it is accompanied with a guilty intention. Thus, a crime cannot be committed unless it is accompanied with a guilty mind. Similarly, mere guilty mind also does not constitute a crime unless it is accompanied with a wrongful act. For example, if a person merely thinks of committing an act of kidnapping, he/she will not be called a kidnapper. This guilty intention must be accompanied" />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sources"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:textColor="#F2A71B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.AO Sanni: Introduction To Nigerian Legal Method" />
+            <TextView
+                android:textColor="#F2A71B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.Evidence Act 2011" />
+
+            <TextView
+                android:textColor="#F2A71B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.Constitution of the Federal Republic of Nigeria 1999 (as amended)" />
+
+            <TextView
+                android:id= "@+id/AskMeTV22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#7EEC0B"
+                android:textStyle="bold"
+                android:text="Got a question?" />
+
+
+
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
